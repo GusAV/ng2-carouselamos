@@ -69,14 +69,14 @@ export class Ng2Carouselamos {
   onMouseup(e: MouseEvent, elem: any) {
     if (e.which === 1) {
       this.startPress = 0;
-      this.snap(elem);
+      //this.snap(elem);
     }
   }
 
   onTouchup(e: TouchEvent, elem: any) {
     if (navigator.userAgent.indexOf('Android') >= 0) e.preventDefault();
     this.startPress = 0;
-    this.snap(elem);
+    //this.snap(elem);
   }
 
   snap(elem: any) {
